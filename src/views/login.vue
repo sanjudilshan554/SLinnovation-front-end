@@ -7,16 +7,10 @@
 
     </head>
     <body>
-        <section>
-                <div class="navigation">
-                    <nav class="navigationpannel">
-                        <img src="../assets/images/logo.png" alt="lost images" class="logo">
-                        <p class="logoinnovation">SLinnovation</p>
-                    </nav>
-                </div>
-        </section>
-
-        <!-- using for no gutters -->
+        
+        <Navbar></Navbar>
+       
+       <section class="content"> <!-- using for no gutters -->
         <div class="row g-0"> 
             <div class="col col-md-6">
                 <div class="leftside">
@@ -80,29 +74,33 @@
                 </div>
             </div>
         </div>
+    </section>
     </body>
     </html>
 </template>
 
 
 <script>
-
+import Navbar from '../components/navbar.vue';
+export default{
+    components:{
+        Navbar
+    }
+}
+      
 </script>
-<style>
 
-.textlogo{
-    padding: 5vh;
-    text-align: center;
-    font-size: small;
-    color: #726a6a;
+<style scoped>
+.content{
+    padding-top: 8vh;
 }
 
 .container{
+    
     justify-content: center;
     align-items: center; 
     display: flex; 
 }
-
 
 .dontacc{
     color:#726a6a;
@@ -121,13 +119,12 @@
 
 .leftside{
     width: auto;
-    height: 92vh;
-
+    height: 100vh;
 }
 
 .rightside{
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     background-color: #c2dbd46b;
  
 } 
@@ -138,36 +135,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-
-.navigationpannel{
-    height: 8vh;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    background-color: rgb(255, 255, 255);
-    background-position: fixed;
-    display: flex;
-    text-shadow: #0a0a0a 1px 1px 2px 0.1px ;
-    box-shadow: #0a0a0a 1px 1px 6px 0.1px;
-}
-
-.logo{
-    margin: 5px 0px 5px 10px ;
-    height: 5vh;
-    width: auto;
-    align-self: flex-start;
-    display: flex;
-    background-position: fixed;
-}
-
-.logoinnovation{
-    margin-top: 2.8vh;
-    align-items: flex-start;
-    font-weight: bold;
-    margin-left: 0%;
-    font-size: auto;
 }
 
 .main{
@@ -183,7 +150,7 @@
 }
 
 .card.loginform{
-   
+    position: fixed;
     box-shadow: rgb(189, 176, 176)  1px 1px 5px 0.5px;
     justify-content: center; 
     align-items: center; 
@@ -199,16 +166,9 @@
     padding-bottom: 7vh;
 }
 
-.email{
-    box-shadow: rgb(184, 175, 175) 1px 1px 2px 0.1px;
-    border-radius:15px;
-    margin-bottom: 2vh;
-}
 
-.password{
-    box-shadow: rgb(189, 180, 180) 1px 1px 2px 0.1px;
-    border-radius:15px;
-}
+
+
 
 .emailcontrol{
     margin-bottom: 2vh;
@@ -247,7 +207,7 @@
     padding: 5px 20px;
     box-shadow:1px 1px 5px #020101;
     transition: 0.5;
-    transition: background-color 0.5s, color 0.5s; /* Add transition for background-color and color */
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .loginpng{
@@ -255,5 +215,20 @@
     height:auto;
 }
 
+.form-control{
+    border: none;
+    border-bottom: 1px solid rgb(22, 23, 32);
+    transition: border-color 0.3s ease-in-out ;
+    border-color: none;
+    outline: none;
+    border-radius: none;
 
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-bottom: 1px solid rgb(4, 0, 255);
+    transition: border-color 0.3s ease-in-out ;
+    border-radius: none;
+}
 </style>
