@@ -91,9 +91,7 @@ export default{
 </script>
 
 <style scoped>
-.content{
-    padding-top: 8vh;
-}
+
 
 .container{
     
@@ -150,7 +148,6 @@ export default{
 }
 
 .card.loginform{
-    position: fixed;
     box-shadow: rgb(189, 176, 176)  1px 1px 5px 0.5px;
     justify-content: center; 
     align-items: center; 

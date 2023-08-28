@@ -78,14 +78,10 @@
 
 <style scoped>
 
-.content{
-    padding-top:8vh;
-   
-}
+
 .back{
     background-color: #ffffff00;
     display: inline-block;
-    position: fixed;
 }
 
 .backcls{
@@ -127,7 +123,7 @@ body{
 }
 
 .card{
-    position: fixed;
+    margin: 10px;
     padding: 10px;
     border-radius: 25px;
     width: 100%;

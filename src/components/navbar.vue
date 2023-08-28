@@ -5,10 +5,10 @@
         <div class=""><img src="../assets/images/logo.png" alt="logo" class="logo"></div>
         <label for="icons" class="icons"><span class="material-symbols-outlined icon">menu</span></label>
         <ul class="navbar">
-            <li class="link">Home</li>
-            <li class="link">Service</li>
-            <li class="link">Upload</li>
-            <li class="link">Contact</li>
+            <a href="">Home</a>
+            <a href="">Service</a>
+            <a href="">Upload</a>
+            <a href="">Contact</a>
         </ul>
         <div class="right">
             <div class="notification">ICON</div>
@@ -20,7 +20,7 @@
 
 </template>
 
-<style>
+<style scoped>
 body{
     padding: 0;
     margin: 0;
@@ -39,10 +39,21 @@ body{
    padding: 0;
 }
 
-li{
-    background-color: rgb(197, 206, 214);
+a{
+    background-color: #b2b7c0;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+a:hover{
+    background-color: #001E44;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    transition: background-color ease-in-out 0.3s;
 }
 
 header{
@@ -64,6 +75,8 @@ header{
 
 .icons{
     display: none;
+    margin: 2vh;
+    cursor: pointer;
 }
 /* BREAKPOINTS */
 
@@ -82,17 +95,34 @@ header{
     }
 }
 
-@media (max-width: 500px){
+ @media (max-width: 500px){
     .right{
         display: none;
     }
     .navbar{
-        display: none;
+        position: absolute;
+        background-color: #e1e5eb;
+        padding: 15px;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        backdrop-filter: blur(15px);
+        background-position: fixed;
     }
     .icons{
-        display: block;
-        padding-left: 10%;
+        display: flex;
+        padding-left: 20%;
+        margin-left: 25px;
     }
-}
+
+     .navbar a{
+        color: rgb(0, 0, 0);
+        display: block;
+        text-align: left;
+        font-size: small;
+        margin: 1vh;
+    }
+} 
+
 </style>
 <script></script>
