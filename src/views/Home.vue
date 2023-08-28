@@ -16,7 +16,7 @@
   
               <div class="col-sm">
                     <div class="bigguy">
-                      <h1 class="display-3">UNLEASH POTENTIAL</h1>
+                      <h1 class="display-4">UNLEASH POTENTIAL</h1>
                     </div>
 
                 
@@ -86,6 +86,34 @@
           </div>
         <!-- </div> -->
       </section>
+
+      <section class="imagewrapper">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="../assets/images/slider/mercedes-amg-a-45-5k-9m.jpg" alt="lost image1">
+
+            <img id="slide-2" src="../assets/images/slider/mercedes-amg-g63-rear-8q.jpg" alt="lost image2">
+
+            <img id="slide-3" src="../assets/images/slider/mercedes-benz-g-class-g63-black-4k-z4.jpg" alt="lost image3">
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionfourmain">
+        <div class="">
+          <div class="sectionfour">
+              <p class="sectionfourtext">Innovation propels us beyond boundaries, awakening our inherent curiosity and driving rogress. It's the spark that <br>
+                  challenges into opportunities and reshapes he world as we know it. Fueled by the relentless pursuit of improvement,
+              </p>
+              <div class="seperator"></div>
+            </div>
+        </div>
+      </section>
   </body>
   </html>
 </template>
@@ -97,10 +125,92 @@ export default{
     Navbar
   }
 }
-
 </script>
 
-<style>
+<style scoped>
+
+.sectionfour{
+  margin-top: 5vh;
+
+}
+
+.seperator::before{
+  content: '';
+  position:absolute;
+  width:100%;
+  height: 25%;
+  background: #1d1b1bd7;
+  clip-path: polygon(100% 0,0 -100%,100% 100%);
+}
+
+.sectionfourtext{
+  display: flex;
+  background-color:#1d1b1bd7;
+  font-size: larger;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+  color: aliceblue;
+}
+
+
+
+
+/* .imagewrapper{
+  margin-bottom: 5vh;
+} */
+.slider-wrapper{
+  position: relative;
+  max-width: 82%;
+  margin: 0 auto;
+}
+
+.slider{
+  display: flex;
+  aspect-ratio: 30 / 9; /*default comes with 16/9 but i don't want small one it*/
+  overflow-x: hidden;
+  scroll-snap-type:x mandatory; 
+  scroll-behavior: smooth;
+  box-shadow: 1px 1px 5x black;
+  border-radius: 0.5rem ;
+}
+
+.slider img{
+  flex:1 0 100%;
+  /* scroll-snap-align: start ; */
+  object-fit: cover;
+}
+
+.slider-nav{
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom:1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index:1;
+}
+
+.slider-nav a{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+  opacity: 1;
+}
+
+
+.slider {
+  animation: slide 2s linear infinite;
+}
+
 .givesuport{
   margin-top: 20px;
 }
@@ -123,14 +233,14 @@ export default{
   overflow: hidden;
 }
 
-
 .section-two-text{
   margin-top: 5vh;
-  background-color: rgba(250, 235, 215, 0.658);
+  background-color: rgba(230, 132, 3, 0);
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: larger;
+
 }
 
 .bigguy{
@@ -142,7 +252,7 @@ export default{
   background-position: fixed;
 }
 .leftside{
-  background-color: rgba(17, 2, 2, 0.233);
+  background-color: rgba(0, 0, 0, 0);
   height: 100%;
 }
 
