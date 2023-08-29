@@ -36,11 +36,12 @@
 .footer{
     background-color:#151d42;
     width: 100%;
-    position: fixed;
+   
+    z-index: 9999;
 }
 
 section{
-    position: absolute;
+    position: relative;
     bottom:0; 
 } 
 

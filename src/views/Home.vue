@@ -114,20 +114,40 @@
             </div>
         </div>
       </section>
+
+      <section>
+        <div class="container">
+          <div class="image">
+            <img src="../assets/images/footercover.png" alt="lostfooterimage" class="imagefooter">
+          </div>
+        </div>
+      </section>
+
+
+      <Footer></footer>
   </body>
   </html>
 </template>
 
 <script>
-import Navbar from '../components/navbar.vue'
+import Navbar from '../components/navbar.vue';
+import Footer from '../components/footer.vue';
 export default{
   components:{
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>
 
 <style scoped>
+.imagefooter{
+  object-fit: cover;
+  background-size: cover;
+  overflow: none;
+  width:100%;
+  height: auto;
+}
 
 .sectionfour{
   margin-top: 5vh;
@@ -248,8 +268,8 @@ export default{
 }
 
 .footbase{
-  width:115vh;
-  background-position: fixed;
+  width:100%;
+  height: auto;
 }
 .leftside{
   background-color: rgba(0, 0, 0, 0);
