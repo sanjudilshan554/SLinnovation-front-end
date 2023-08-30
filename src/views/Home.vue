@@ -238,6 +238,7 @@ export default {
 
 .cardsetup {
   cursor: pointer;
+
   
 }
 .namesetup {
@@ -366,7 +367,7 @@ export default {
   height: 200px;
   overflow: hidden;
   transition: ease-in-out 0.3s;
-  
+  z-index: 1;
 }
 
 .section-two-text {
