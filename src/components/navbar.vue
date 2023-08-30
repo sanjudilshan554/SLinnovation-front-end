@@ -11,16 +11,128 @@
             <a href="">Contact</a>
         </ul>
         <div class="right">
-            <div class="notification">ICON</div>
-            <div class="user">SANJUDILSHAN</div>
-            <input type="button" value="logout">
-        </div>
-       
-    </header>
+            <div class="card notification">
+                <div class="circle">
+                    <sup><p class="numbernotifiy">13</p></sup> 
+                </div> 
+                <span class="material-symbols-outlined ">notifications</span>
+            </div> 
 
+            
+
+            <div class="user">
+                <div class="card userimagecard">
+                    <img src="../assets/images/Navbar/df-removebg-preview.jpg" alt="lost user" class="card-img-center card-img userimage">
+                </div>
+               <p class="username">SANJUDILSHAN</p> 
+            </div>
+
+            <div class="logutbutton">
+                <input type="button" value="logout" class="logout">
+            </div>
+        </div>   
+    </header>
 </template>
 
 <style scoped>
+
+
+.material-symbols-outlined{
+    background-color: hsla(214, 100%, 13%, 0.007);
+
+}
+.card .numbernotifiy{
+    font-size: 10px;
+    background-color: rgb(223, 18, 18);
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    margin-left: 3px;
+    margin-top: -5px;
+    
+} 
+
+.notification{
+    margin:5px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display:inline-flex;
+    background-color: #b2b7c000;
+    border: none;
+}
+
+.circle{
+
+}
+
+
+.userimagecard{
+    /* border-radius: 15px; */
+    background-color: greenyellow;
+    border: none;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.userimage{
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    border-radius: 15px;
+    border: none; 
+}
+.logout{
+    background-color: rgb(228, 16, 16);
+    border-radius: 15px;
+    color:white;
+    padding:0px 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.63) ;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+
+.user{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    /* margin-top: 5px; */
+}
+.username{
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout:hover{
+    background-color: red;
+    border-radius: 15px;
+    color:white;
+    padding:2px 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.63) ;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    transition: background-color, color, ease-in-out 0.3s;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -68,10 +180,15 @@ header{
     backdrop-filter: blur(50px);
 }
 
+
+
 .right{
-    margin-right: 15px;
     display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .icons{
     display: none;
@@ -88,6 +205,7 @@ header{
  
     .notification{
         display: none;
+
     }
    
     .user{
