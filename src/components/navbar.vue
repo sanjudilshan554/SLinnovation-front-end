@@ -172,16 +172,17 @@ a:hover{
 header{
     position: fixed;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0);
     align-items: center;
     justify-content:space-between;
     width: 100%;
     box-shadow: 1px 1px 5px  black;
     z-index: 50;
-    backdrop-filter: blur(50px); 
-    background-repeat: no-repeat;
-    background-position:fixed;
-    position:relative;
+    /* backdrop-filter: blur(50px);   */
+    /* background-repeat: no-repeat; */
+    /* background-position:fixed; */
+    /* position:absolute;  */
+    
 }
 
 

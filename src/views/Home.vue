@@ -8,7 +8,7 @@
     <body>
       <Navbar></Navbar>
 
-      <section>
+          <section class="main">
         <!-- <div class="container"> -->
         <div class="row leftside">
           <div class="col-sm">
@@ -417,5 +417,11 @@ export default {
 .homesec {
   width: 60vh;
   padding-left: 10vh;
+}
+
+.main{
+  position: relative;
+  overflow: hidden; 
+  padding-top: 55px;
 }
 </style>
