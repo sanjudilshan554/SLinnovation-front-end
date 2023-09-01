@@ -5,6 +5,8 @@ import loginView from '../views/login.vue'
 import test from '../views/test.vue'
 import registration from '../views/registration.vue'
 import teamwork from '../views/teamwork.vue'
+import teamRegistration from '../views/teamRegistration.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -41,6 +43,12 @@ const router = createRouter({
       path: '/teamwork',
       name: 'teamwork',
       component: teamwork
+    },
+    
+    {
+      path: '/teamRegistration',
+      name: 'teamRegistration',
+      component: teamRegistration
     }
   ]
 })

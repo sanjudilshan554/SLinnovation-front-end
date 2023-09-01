@@ -167,74 +167,7 @@
                                                       <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
                                                    </div>
                                                 </div>
-                                                <div class="cardsetup">
-                                                   <div class="labelcard">
-                                                      <label for="">Robot cars</label>
-                                                   </div>
-                                                   <div class="card imagecard">
-                                                      <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                                   </div>
-                                                </div>
-                                                <div class="cardsetup">
-                                                   <div class="labelcard">
-                                                      <label for="">Robot cars</label>
-                                                   </div>
-                                                   <div class="card imagecard">
-                                                      <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                                   </div>
-                                                </div>
-                                                <div class="cardsetup">
-                                                   <div class="labelcard">
-                                                      <label for="">Robot cars</label>
-                                                   </div>
-                                                   <div class="card imagecard">
-                                                      <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                                   </div>
-                                                </div>
-                                                <div class="cardsetup">
-                                                   <div class="labelcard">
-                                                      <label for="">Robot cars</label>
-                                                   </div>
-                                                   <div class="card imagecard">
-                                                      <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                                   </div>
-                                                </div>
-                                                <div class="cardsetup">
-                                                <div class="label
-card">
-                                                <label for="">Robot cars</label>
-                                             </div>
-                                             <div class="card imagecard">
-                                                <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                             </div>
-                                          </div>
-                                          <div class="cardsetup">
-                                             <div class="labelcard">
-                                                <label for="">Robot
-                   cars</label>
-                                          </div>
-                                          <div class="card imagecard">
-                                             <img src="../assets/images/Teamwork/robotic-car-kit.jpg
-                           " alt="" cla
-                                                ss="card-img-top img-fluid">
-                                          </div>
-                                    </div>
-                                    <div class="cardsetup">
-                                       <div class="labelcard">
-                                          <label for="">Robot cars</label>
-                                       </div>
-                                       <div class="card imagecard">
-                                       <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                    </div>
-                                 </div>
-                                 <div class="cardsetup">
-                                    <div class="labelcard">
-                                       <label for="">Robot cars</label>
-                                       </div>
-                                          <div class="card imagecard">
-                                                 <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="" class="card-img-top img-fluid">
-                                              </div>
-                                           </div>
+                                 
                                         </div>
                                      </section>
                                   </section>
