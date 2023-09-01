@@ -6,6 +6,7 @@ import test from '../views/test.vue'
 import registration from '../views/registration.vue'
 import teamwork from '../views/teamwork.vue'
 import teamRegistration from '../views/teamRegistration.vue'
+import selfworkcreation from '../views/selfWorkCreation.vue'
 
 
 const router = createRouter({
@@ -49,6 +50,12 @@ const router = createRouter({
       path: '/teamRegistration',
       name: 'teamRegistration',
       component: teamRegistration
+    },
+
+    {
+      path: '/selfworkcreation',
+      name: 'selfworkcreation',
+      component: selfworkcreation
     }
   ]
 })
