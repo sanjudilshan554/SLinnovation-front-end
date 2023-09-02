@@ -112,6 +112,9 @@ export default {
 </script>
 
 <style scoped>
+.imagesetup{
+    margin-right: 50px;
+}
 .seedr:hover{
     text-shadow: 2px 2px 10px rgb(3, 253, 3);
 }
@@ -191,8 +194,7 @@ export default {
 }
 .buttoncls{
     padding-top: 2vh;
-    display: flex;
-    justify-content: center;
+    margin-right: 30px;
 }
 
 .addimagebutton{

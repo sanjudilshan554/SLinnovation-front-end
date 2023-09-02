@@ -8,6 +8,8 @@ import teamwork from '../views/teamwork.vue'
 import teamRegistration from '../views/teamRegistration.vue'
 import selfworkcreation from '../views/selfWorkCreation.vue'
 import teamworkInside from '../views/teamworkInside.vue'
+import selfworkInside from '../views/selfworkInside.vue'
+import selfwork from '../views/selfwork.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -62,6 +64,18 @@ const router = createRouter({
       path: '/teamworkInside',
       name: 'teamworkInside',
       component: teamworkInside
+    },
+
+    {
+      path: '/selfworkInside',
+      name: 'selfworkInside',
+      component: selfworkInside
+    },
+
+    {
+      path: '/selfwork',
+      name: 'selfwork',
+      component: selfwork
     }
   ]
 })
