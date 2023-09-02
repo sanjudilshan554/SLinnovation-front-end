@@ -26,7 +26,8 @@
                 </div>
              </div>
           </section>
-          <section>
+
+            <section>
              <div class="row">
                 <div class="col-md-4 members">
                       <div class="row headersetup">
@@ -86,42 +87,7 @@
                                <span>Usename</span>
                                <div class="dot"></div>
                             </div>
-                         </div>
-                         <div class="cardrepeat">
-                            <div class="card insidesetup">
-                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
-                               <span>Usename</span>
-                               <div class="dot"></div>
-                            </div>
-                         </div>
-                         <div class="cardrepeat">
-                            <div class="card insidesetup">
-                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
-                               <span>Usename</span>
-                               <div class="dot"></div>
-                            </div>
-                         </div>
-                         <div class="cardrepeat">
-                            <div class="card insidesetup">
-                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
-                               <span>Usename</span>
-                               <div class="dot"></div>
-                            </div>
-                         </div>
-                         <div class="cardrepeat">
-                            <div class="card insidesetup">
-                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
-                               <span>Usename</span>
-                               <div class="dot"></div>
-                            </div>
-                         </div>
-                         <div class="cardrepeat">
-                            <div class="card insidesetup">
-                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
-                               <span>Usename</span>
-                               <div class="dot"></div>
-                            </div>
-                         </div>
+                        </div>
                       </div>
                    </div>
                 </div>
@@ -170,29 +136,10 @@
 
                             <div class="card repeatCapture">
                                 <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
-
-                            <div class="card repeatCapture">
-                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
-
-                            <div class="card repeatCapture">
-                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
-
-                            <div class="card repeatCapture">
-                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
-
-                            <div class="card repeatCapture">
-                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
-
-                            <div class="card repeatCapture">
-                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
-                            </div>
+                            </div>                            
                         </div>
                     </div>
+
                     <div class="buttoncls">
                         <div class="addimagebutton">
                             <a href="#" class="imagelink">
@@ -205,7 +152,154 @@
              </div>
           </section>
 
-          
+          <section>
+            <div class="row">
+                <div class="col twoone">
+                    <div class="headingForTwoOne">
+                        <div class="display-6 headlineLast">Comments and points</div>
+                    </div>
+
+                    <div class="maincard">
+                        <div class="card setupcard ">
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostProfile" class="imageforprofile">
+                                <div class="textarea">
+                                    <textarea class="from-control textareas" rows="4" cols="48"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="addcomments">
+                        <textarea class="from-control addcomments" rows="2" cols="60"></textarea>
+                    </div>
+
+                    <div class="addcommentbtnup">
+                        <div class="btn btn-success addcommentbtnon">Add Comment</div>
+                    </div>
+                </div>
+                <div class="col twotwo">
+                    <div class="headingForTwoOne">
+                        <div class="display-6 headlineLast">Progress completion</div>
+                    </div>
+
+                    <div class="maincard">
+                        <div class="card setupcardright">
+                            <div class="card repeatcardright">
+                                 <div class="textarea">
+                                    <textarea class="from-control textareas" rows="2" cols="48"></textarea>
+                                </div>
+                                <div class="card check">
+                                    <span class="material-symbols-outlined">check</span> 
+                                </div>
+                            </div>
+
+                            <div class="card repeatcardright">
+                                 <div class="textarea">
+                                    <textarea class="from-control textareas" rows="2" cols="48"></textarea>
+                                </div>
+                                <div class="card check">
+                                    <span class="material-symbols-outlined">check</span> 
+                                </div>
+                            </div>
+
+                            <div class="card repeatcardright">
+                                 <div class="textarea">
+                                    <textarea class="from-control textareas" rows="2" cols="48"></textarea>
+                                </div>
+                                <div class="card check">
+                                    <span class="material-symbols-outlined">check</span> 
+                                </div>
+                            </div>
+
+                            <div class="card repeatcardright">
+                                 <div class="textarea">
+                                    <textarea class="from-control textareas" rows="2" cols="48"></textarea>
+                                </div>
+                                <div class="card check">
+                                    <span class="material-symbols-outlined">check</span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                        <div class="addcomments">
+                            <textarea class="from-control addcomments" rows="2" cols="60"></textarea>
+                        </div>
+                    <div class="undersection">
+                        <div class="addcommentbtn">
+                            <div class="btn btn-success addcommentbtnons">Add Comment</div>
+                            <div class="btn btn-primary addcommentbtnons">Submit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
        </body>
     </html>
  </template>
@@ -218,6 +312,110 @@
     }
  </script>
  <style>
+ .addcommentbtnup{
+    display: flex;
+    align-items: center;
+    align-self: flex-end;   
+    margin-left: 480px;
+    padding-top: 10px;
+ }
+
+ .addcommentbtnforup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+ }
+.addcommentbtnons{
+    margin: 5px;
+}
+ .undersection{
+    display: flex;
+    flex-direction: column;
+ }
+ .addcommentbtn{
+    padding-top: 10px;
+    padding-right: 90px;
+    align-self: flex-end;
+    margin-right: 45px;
+ }
+ .addcomments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+ }
+ .setupcardright{
+    height:60vh;
+    overflow: auto;
+ }
+ .repeatcardright{
+    margin: 10px;
+ }
+ .check{
+    background-color: greenyellow;
+    border-radius: 15px;
+    margin: 10px;
+ }
+.repeatcardright{
+    display:felx;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border:none;
+}
+
+ .maincard{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    
+ }
+ .setupcard{
+    width: 460px;
+    height: 60vh;
+    overflow: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+ }
+ .imageforprofile{
+    position: absolute;
+    align-self: flex-start;
+ }
+ .textarea{
+    align-self: flex-end;
+    
+ }
+ .textareas{
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+ }
+.repeatcard{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(250, 235, 215, 0.11);
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+}
+.imageforprofile{
+    border-radius: 25px;
+    width:40px;
+    height: 40px;
+}
+ .headlineLast{
+    text-align: center;
+ }
+ .twoone{
+    background-color: rgba(0, 255, 255, 0);
+    height: 100vh;
+ }
+
+ .twotwo{
+    background-color: rgba(0, 0, 255, 0.014);
+    height: 100vh;
+ }
+
  .imagelink{
     text-decoration: none;
  }
@@ -321,11 +519,11 @@
     }
     .members{
     background-color: rgba(0, 255, 255, 0);
-    height: 100vh;
+    height: 85vh;
     }
     .captures{
     background-color: rgba(0, 0, 255, 0);
-    height: 100vh;
+    height: 85vh;
     }
     .videbtn{
     margin-right: 10px;
