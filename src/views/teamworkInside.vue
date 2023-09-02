@@ -1,69 +1,354 @@
 <template>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <navbar></navbar>
-        <div class="main">
-            <section>
+       <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+       </head>
+       <body>
+          <navbar></navbar>
+          <section class="main">
+             <div class="mainsetup">
                 <div class="row no-gutters">
-                    <div class="col-md-8 one">
-                        <div class="back">
-                            <a href="backcls"><span class="material-symbols-outlined seedr">arrow_back</span></a>
-                        </div>
-                        <div class="card imagecenter">
-                            <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="lostprofileimage" class="card-img-top topimage">
-                        </div>
-                        <span class="projectname"><b>Robot Car Project</b></span>
-                    </div>
+                   <div class="col-md-8 one">
+                      <div class="back">
+                         <a href="backcls"><span class="material-symbols-outlined seedr">arrow_back</span></a>
+                      </div>
+                      <div class="card imagecenter">
+                         <img src="../assets/images/Teamwork/robotic-car-kit.jpg" alt="lostprofileimage" class="card-img-top topimage">
+                      </div>
+                      <span class="projectname"><b>Robot Car Project</b></span>
+                   </div>
+                   <div class="col-md-4 two">
+                      <a href="#" class="btn btn-success addmemberbtn">Add members</a>
+                      <a href="#" class="btn btn-primary videbtn"><span class="material-symbols-outlined cam">videocam</span><span class="meetup">meetup</span></a>
+                   </div>
+                </div>
+             </div>
+          </section>
+          <section>
+             <div class="row">
+                <div class="col-md-4 members">
+                      <div class="row headersetup">
+                        <div class="col">
+                            <span class="material-symbols-outlined communities">communities</span>
+                            <span class="membertext">Members</span>
+                        </div> 
+                      </div> 
 
-                    <div class="col-md-4 two">
-                        <a href="#" class="btn btn-success addmemberbtn">Add members</a>
-                        <a href="#" class="btn btn-primary videbtn"><span class="material-symbols-outlined cam">videocam</span><span class="meetup">meetup</span></a>
+                   <div class="cardsetup">
+                      <div class="card mainmembership">
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                         <div class="cardrepeat">
+                            <div class="card insidesetup">
+                               <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="lostimage" class="card-img-top userimagepostionone">
+                               <span>Usename</span>
+                               <div class="dot"></div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+
+                <div class="col-md-8 captures">
+                    <div class="headline">
+                        <span class="title">Project Captures</span>
+                    </div>
+                    <div class="captureinside">
+                        <div class="card mainCaptureCard">
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+
+                            <div class="card repeatCapture">
+                                <img src="../assets/images/Project Captures/images.png" alt="lostImgCapture" class="card-img-top imgCapture">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttoncls">
+                        <div class="addimagebutton">
+                            <a href="#" class="imagelink">
+                            <span class="material-symbols-outlined imageicon">image</span>
+                            <span class="imagetext">Add</span></a>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </body>
+
+             </div>
+          </section>
+
+          
+       </body>
     </html>
-</template>
-
-<script>
-import navbar from '../components/navbar.vue'
-export default {
-    components: {
-        navbar
+ </template>
+ <script>
+    import navbar from '../components/navbar.vue'
+    export default {
+        components: {
+            navbar
+        }
     }
-}
-</script>
-
-<style>
-.videbtn{
-    margin-right: 10px;
-}
-
-.addmemberbtn{
-    margin-right: 10px;
-}
-.meetup{
-    padding-left: 30px;
-}
-.cam{
+ </script>
+ <style>
+ .imagelink{
+    text-decoration: none;
+ }
+ .imagetext{
+    padding-left: 25px;
+ }
+ .imageicon{
     position: absolute;
+ }
+ .buttoncls{
+    display: flex;
+    justify-content: right;
+    margin-right: 120px;
+    transform: scale(1.2);
+ }
+ .addimagebutton{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 1px 15px;
+    box-shadow: 1px 1px 2px black;
+ }
+ .addimagebutton:hover{
+    background-color: greenyellow;
+    box-shadow: 1px 1px 5px black;
+    transition:0.3s ease-in-out;
+ }
+
+.title{
+    font-size:x-large;
+    margin-left: 10px;
 }
-.projectname{
+ .captureinside{
+    padding: 10px 30px 10px 10px;
+    background-color: rgba(0, 255, 255, 0);
+    height:70vh;
+ }
+ .mainCaptureCard{
+    padding: 30px;
+    display: flex;
+    background-color: rgba(0, 115, 247, 0.158);
+    flex-wrap:wrap;
+    flex-direction: row;
+    height:65vh;
+    overflow: auto;
+    box-shadow: 1px 1px 5px black;
+ }
+ .repeatCapture{
+    max-width:150px;
+    max-height:150px;
+    min-width:150px;
+    min-height:150px;
+    margin: 10px;
+    background-color: rgba(0, 0, 255, 0.062);
+    box-shadow: 1px 1px 5px black;
+ }
+
+.imgCapture{
+    overflow: auto;
+    border-radius: 15px;
+}
+.communities{
+    position:absolute;
+}
+.membertext{
+    padding-left: 25px;
+}
+    .cardsetup{
+    }
+    .mainmembership{
+    margin: 40px 100px;
+    height: 60vh;
+    overflow: auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+    border:none;
+    }
+    .insidesetup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(240, 248, 255);
+    margin:5px 15px 5px 15px;
+    }
+    .headersetup{
+    padding-top: 25px;
+    text-align: center;
+    transform: scale(1.5);
+    }
+    .dot{
+    background-color:red ;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    }
+    .userimagepostionone{
+    width: 40px;
+    border-radius: 25px;
+    display: flex;
+    }
+    .members{
+    background-color: rgba(0, 255, 255, 0);
+    height: 100vh;
+    }
+    .captures{
+    background-color: rgba(0, 0, 255, 0);
+    height: 100vh;
+    }
+    .videbtn{
+    margin-right: 10px;
+    }
+    .addmemberbtn{
+    margin-right: 10px;
+    }
+    .meetup{
+    padding-left: 30px;
+    }
+    .cam{
+    position: absolute;
+    }
+    .projectname{
     margin-left: 10px;
     display: flex;
     align-items: center;
     font-size: xx-large;
-}
-.back{
+    }
+    .back{
     padding: 12px 10px 0px 12px ;
-}
-.imagecenter{
+    }
+    .imagecenter{
     margin:10px;
     display: flex;
     align-items: center;
@@ -73,21 +358,19 @@ export default {
     border-radius: 12px;
     overflow: auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);
-}
-.one{
+    }
+    .one{
     background-color: rgba(255, 255, 0, 0.041);
     display: flex;
-}
-
-.two{
+    }
+    .two{
     padding: 15px;
     background-color: rgba(213, 213, 233, 0.192);
     align-items: center;
     display: flex;
     justify-content: right;
-}
-
-.main{
+    }
+    .main{
     padding-top: 55px;
-}
-</style>
+    }
+ </style>
