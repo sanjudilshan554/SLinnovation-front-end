@@ -311,7 +311,7 @@
         }
     }
  </script>
- <style>
+ <style scoped>
  .addcommentbtnup{
     display: flex;
     align-items: center;
