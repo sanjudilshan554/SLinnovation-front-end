@@ -11,6 +11,8 @@ import teamworkInside from '../views/teamworkInside.vue'
 import selfworkInside from '../views/selfworkInside.vue'
 import selfwork from '../views/selfwork.vue'
 import askhelp from '../views/askHelp.vue'
+import helpArea from '../views/helpArea.vue'
+import viewFullDetails from '../views/viewFullDetails.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -83,6 +85,18 @@ const router = createRouter({
       path: '/askhelp',
       name: 'askhelp',
       component: askhelp
+    },
+
+    {
+      path: '/helpArea',
+      name: 'helpArea',
+      component: helpArea
+    },
+
+    {
+      path: '/viewFullDetails',
+      name: 'viewFullDetails',
+      component: viewFullDetails
     },
   ]
 })
