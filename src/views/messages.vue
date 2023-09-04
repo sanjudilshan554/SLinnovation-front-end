@@ -11,7 +11,7 @@
         <navbar></navbar>
         <section class="main">
             <div class="header section">
-                <span class="display-5">Notification</span>
+                <span class="display-5">Messages</span>
             </div>
         </section>
 
@@ -19,17 +19,55 @@
             <div class="maincard">
                 <div class="card centercard">
 
-                    <div class="setone">
-                        <div class="message"><span>Message</span></div>
+                    
+                        
                         <div class="card notifi">
-                            <div class="image">
-                                <card>
+                            
+                            <div class="card repeatcard">
+                                <div class="image">
                                     <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
-                                </card>
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
                             </div>
-                            <textarea name="" id="" cols="45" rows="10" class="comments"></textarea>
+
+                            <div class="card repeatcard">
+                                <div class="image">
+                                    <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <div class="image">
+                                    <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <div class="image">
+                                    <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <div class="image">
+                                    <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
+                            </div>
+
+                            <div class="card repeatcard">
+                                <div class="image">
+                                    <img src="../assets/images/TeamworkRegistration/profile.jpg" alt="" class="imgsetup">
+                                </div>
+                                <textarea name="" id="" cols="48" rows="4" class="comments"></textarea>
+                            </div>
                         </div>
-                    </div>
+                 
+
+                    
                 </div>
             </div>
         </section>
@@ -46,6 +84,13 @@ export default {
 }
 </script>
 <style>
+.repeatcard{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    margin:5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+}
 .comments{
     margin-left: 10px;
     border-radius: 15px;
@@ -71,13 +116,14 @@ export default {
 
 .notifi {
     padding: 10px;
-    background-color: #0079F1;
-    height: 24vh;
-    width: 15vh;
+    background-color: #fffffff8;
+    height: 70vh;
     width: 70vh;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border: none;
+    overflow: auto;
 }
 
 .mess {
@@ -90,19 +136,20 @@ export default {
 .setone {
     margin-left: 25px;
     text-align: center;
+    padding: 10px;
 }
 
-.centercard {
-    margin: 25px;
-    height: 70vh;
-}
+
 
 .centercard {
-    background-color: #62666650;
+    background-color: #fcfcfc;
     display: flex;
     flex-direction: row;
+    align-self: center;
     justify-content: center;
-    align-items: center;
+    margin: 25px;
+    height: 70vh;
+    border: none;
 }
 
 .main {

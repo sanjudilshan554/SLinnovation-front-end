@@ -15,7 +15,8 @@ import helpArea from '../views/helpArea.vue'
 import viewFullDetails from '../views/viewFullDetails.vue'
 import notification from '../views/notification.vue'
 import messages from '../views/messages.vue'
-
+import acception from '../views/acception.vue'
+import profile from '../views/profile.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -112,6 +113,18 @@ const router = createRouter({
       path: '/messages',
       name: 'messages',
       component: messages
+    },
+
+    {
+      path: '/acception',
+      name: 'acception',
+      component: acception
+    },
+
+    {
+      path: '/profile',
+      name: 'profile',
+      component: profile
     },
   ]
 })

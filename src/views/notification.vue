@@ -66,7 +66,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 .display-5 {
     padding-left: 50px;
 }
