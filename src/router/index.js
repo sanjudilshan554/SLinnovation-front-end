@@ -13,6 +13,9 @@ import selfwork from '../views/selfwork.vue'
 import askhelp from '../views/askHelp.vue'
 import helpArea from '../views/helpArea.vue'
 import viewFullDetails from '../views/viewFullDetails.vue'
+import notification from '../views/notification.vue'
+import messages from '../views/messages.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -97,6 +100,18 @@ const router = createRouter({
       path: '/viewFullDetails',
       name: 'viewFullDetails',
       component: viewFullDetails
+    },
+
+    {
+      path: '/notification',
+      name: 'notification',
+      component: notification
+    },
+
+    {
+      path: '/messages',
+      name: 'messages',
+      component: messages
     },
   ]
 })
